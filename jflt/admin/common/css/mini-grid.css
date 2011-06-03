@@ -1,0 +1,213 @@
+/*
+projeto: Humrum! Cross CMS Template Framework
+arquivo: mini-grid.css
+autor: Alex Rodin - contato@alexrodin.com (email,msn,gtalk)
+resumo: Definições do mini-grid exibido no painel de administração do template
+
+
+« Paleta de cores »
+<<------------------------------------------------------------------------------
+#000000    - Titulos principais / textos / texto icones principais
+------------------------------------------------------------------------------>>
+
+
+« Ordem dos atributos »
+<<------------------------------------------------------------------------------
+seletor{
+    position:;
+    top:;
+    left:;
+    float:;
+    clear:;
+    display:;
+    width:;
+    height:;
+    margin:;
+    padding:;
+    border:;
+    background:;
+    font:;
+    text:;
+    color:;
+}
+------------------------------------------------------------------------------>>
+
+
+/* -----------------------------------*/
+/* ---------->>> SECAO
+/* -----------------------------------*/
+/* secao
+/**
+* Estilos da secao
+*
+* @section secao subsecao
+*/
+
+/*
+------------------------------------------------------------------------------>>
+*/
+
+/* -----------------------------------*/
+/* ---------->>> PREVIEW
+/* -----------------------------------*/
+/* preview
+/**
+* Estilos do mini-preview do layout
+*
+* @section preview
+*/
+#preview{
+    display: table;
+}
+    #mini-grid-container{       
+        float:left;
+        width:348px;
+        border:1px solid #BBBBBB;
+        border-bottom: 0px;
+        background:url("../img/12_cols_bg.gif") repeat-y;
+    }
+.mini-position{
+    border-bottom:1px solid #BBBBBB;
+    height:30px;
+    padding-bottom:2px;
+    padding-top:2px;
+    width:348px;
+    clear: both;
+}
+
+.mini-active{
+    -moz-box-shadow:0 0 20px #000;
+    box-shadow:0 0 20px #000;
+    -webkit-box-shadow:0 0 20px #000;
+    background: url("../img/12_cols_bg_active.gif") repeat-y;
+
+
+}
+.mini-name-active{
+    -moz-box-shadow:0 0 20px #000;
+}
+span.block{
+    display: block;
+}
+/* 12 mini-grid */
+.mini-grid-1, .mini-grid-2, .mini-grid-3, .mini-grid-4, .mini-grid-5, .mini-grid-6, .mini-grid-7, .mini-grid-8, .mini-grid-9, .mini-grid-10, .mini-grid-11, .mini-grid-12 {
+    float: left;
+    position: relative;
+    margin: 0px;
+    height:25px;
+    border:1px solid #666666;
+    padding-bottom:3px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    background: url("../img/grid-bg.png");
+}
+.mini-grid-1:hover, .mini-grid-2:hover, .mini-grid-3:hover, .mini-grid-4:hover, .mini-grid-5:hover, .mini-grid-6:hover, .mini-grid-7:hover, .mini-grid-8:hover, .mini-grid-9:hover, .mini-grid-10:hover, .mini-grid-11:hover, .mini-grid-12:hover {
+    -moz-box-shadow:0 0 20px #111;
+    box-shadow:0 0 20px #111;
+    -webkit-box-shadow:0 0 20px #111;
+    background: url("../img/grid-bg-over.png");
+}
+.mini-grid-1 {width: 25px;}
+.mini-grid-2 {width: 54px; }
+.mini-grid-3 {width: 83px;}
+.mini-grid-4 {width: 112px;}
+.mini-grid-5 {width: 141px; }
+.mini-grid-6 {width: 170px;}
+.mini-grid-7 {width: 199px;}
+.mini-grid-8 {width: 228px;}
+.mini-grid-9 {width: 257px;}
+.mini-grid-10 {width: 286px;}
+.mini-grid-11 {width: 315px;}
+.mini-grid-12 {width: 344px;}
+#mini-main{
+    width:348px;
+    border-bottom:1px solid #BBBBBB;
+    padding-bottom:3px;
+    height: 154px;
+}
+#mini-main div{
+    height:150px;
+}
+#mini-contenttop,#mini-contentbottom{
+    height: 25px!important;
+}
+#mini-content{
+    height:86px !important;
+    margin-bottom:2px;
+    margin-top:2px;
+    background-color: #EEEEEE;
+}
+#mini-contenttop , #mini-contentbottom{
+    border: 0px;
+    margin-left:0;
+    margin-right:0;
+}
+.mini{
+    height: 25px!important;
+}
+.main-mini-grid-1, .main-mini-grid-2, .main-mini-grid-3, .main-mini-grid-4, .main-mini-grid-5, .main-mini-grid-6, .main-mini-grid-7, .main-mini-grid-8, .main-mini-grid-9, .main-mini-grid-10, .main-mini-grid-11, .main-mini-grid-12 {
+    height: 25px!important;
+}
+/* 12 mini-grid sem borda e margem para os containers*/
+.wb-mini-grid-1, .wb-mini-grid-2, .wb-mini-grid-3, .wb-mini-grid-4, .wb-mini-grid-5, .wb-mini-grid-6, .wb-mini-grid-7, .wb-mini-grid-8, .wb-mini-grid-9, .wb-mini-grid-10, .wb-mini-grid-11, .wb-mini-grid-12 {
+    float: left;
+    position: relative;
+    margin: 0px;  
+    border:0px;
+    padding-bottom:3px;
+    height:25px;
+    margin-bottom:2px;
+}
+.wb-mini-grid-1 {width: 29px;}
+.wb-mini-grid-2 {width: 58px; }
+.wb-mini-grid-3 {width: 87px;}
+.wb-mini-grid-4 {width: 116px;}
+.wb-mini-grid-5 {width: 145px; }
+.wb-mini-grid-6 {width: 174px;}
+.wb-mini-grid-7 {width: 203px;}
+.wb-mini-grid-8 {width: 232px;}
+.wb-mini-grid-9 {width: 261px;}
+.wb-mini-grid-10 {width: 290px;}
+.wb-mini-grid-11 {width: 319px;}
+.wb-mini-grid-12 {width: 348px;}
+#name-mini-grid-container{
+
+    border:1px solid #BBBBBB;
+    border-left: 0px;
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+}
+.size2{
+    border-bottom:1px solid #BBBBBB;
+    display:table;
+    height:30px;
+    padding-bottom:2px;
+    padding-top:2px;
+    width:100%;
+}
+#name-mini-main{
+    padding-bottom:3px;
+    height:154px;
+}
+#name-mini-copyright{
+    border-bottom:0 none;
+}
+
+
+
+
+
+/* -----------------------------------*/
+/* ---------->>> MISC
+/* -----------------------------------*/
+/* misc
+/**
+* Estilos extras e miscelaneas
+*
+* @section misc
+*/
+.clear{
+    clear: both;
+}

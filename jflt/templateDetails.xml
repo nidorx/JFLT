@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+    <name>JFLT - Joomla Fast Light Template</name>
+    <version>0.1.0</version>
+    <creationDate>Jun 2011</creationDate>
+    <author>Alex Rodin - Nidorx </author>
+    <authorEmail>nidor.x@gmail.com</authorEmail>
+    <authorUrl>http://www.alexrodin.com</authorUrl>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 </license>
+    <description>
+<![CDATA[
+<script type="text/javascript" src="/templates/jflt/admin/jft.js"></script>
+<div id="doc-accordion" class="accordion">
+
+    <div class="doc-toggler accordion-toggler">Layout preview<span class="arrow"></span></div>    
+    <div class="doc-content accordion-content">        
+        <div id="preview">
+            <div id="mini-grid-container">
+                <div id="mini-top"          class="mini-position"></div>
+                <div id="mini-header"       class="mini-position"></div>
+                <div id="mini-menu"         class="mini-position"></div>
+                <div id="mini-rotator"      class="mini-position"></div>
+                <div id="mini-showcase"     class="mini-position"></div>
+                <div id="mini-feature"      class="mini-position"></div>
+                <div id="mini-utility"      class="mini-position"></div>
+                <div id="mini-maintop"      class="mini-position"></div>
+                <div id="mini-main"         class="mini-position"></div>
+                <div id="mini-mainbottom"   class="mini-position"></div>
+                <div id="mini-bottom"       class="mini-position"></div>
+                <div id="mini-footer"       class="mini-position"></div>
+                <div id="mini-copyright"    class="mini-position"></div>
+            </div>           
+        </div>
+    </div>
+
+
+    <div class="doc-toggler accordion-toggler">About JFLT<span class="arrow"></span></div>
+    <div class="doc-content accordion-content">
+        <p>
+           The JFLT (Joomla Fast Light Template) is a sophisticated framework 
+           for templates for Joomla CMS intends to be the fastest platform for 
+           building templates. The JFLT is characterized by being easy to 
+           configure, simple to extend and powerful.
+        </p>
+        <p>
+           O JFLT (Joomla Fast Light Template) é um sofisticado framework para templates para o Joomla CMS, 
+           tem a intenção de ser a plataforma mais rápida para construção de 
+           templates. O JFLT se caracteriza por ser fácil de configurar, 
+           simples de estender e poderoso.
+        </p>
+    </div>
+
+
+    <div class="doc-toggler accordion-toggler">Features of JFLT<span class="arrow"></span></div>
+    <div class="doc-content accordion-content">
+        <p>
+            The JFLT has many features that enable rapid development of complex 
+            issues with minimal effort.
+            Check out some characteristics of JFLT:
+        </p>
+        <ul>
+            <li>960 Grid System (http://960.gs) for simple and consistent layout. Support for 12 columns</li>
+            <li>Administration interface template more organized</li>
+            <li>System layout preview in real time</li>
+        </ul>
+        
+        
+        <p>
+            O JFLT dispõe de muitas características que permitem o rápido
+            desenvolvimento de projetos complexos com um mínimo de esforço.
+            Confira algumas características do JFLT :
+        </p>
+        <ul>
+            <li>960 Grid System (http://960.gs) para layout  simples e consistente. Suporte para 12 colunas</li>
+            <li>Interface de Administração de template mais organizada</li>
+            <li>Sistema de pré-visualização de layout em tempo real</li>
+        </ul>
+    </div>
+
+
+
+    <div class="doc-toggler accordion-toggler">Change log<span class="arrow"></span></div>
+    <div class="doc-content accordion-content">
+    
+        <p><strong>Versão 0.1.0</strong></p>
+        <ul>
+            <li>03/06/2011 - Projeto hospedado no gitHub</li>
+	</ul>
+    </div>
+</div>
+
+]]>
+
+    </description>
+    <files>
+        <filename>index.php</filename>
+        <filename>component.php</filename>
+        <filename>htaccess.txt</filename>
+        <filename>params.ini</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.12grid</filename>
+        <filename>templateDetails.16grid</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>admin/</folder>
+        <folder>css/</folder>
+        <folder>html/</folder>
+        <folder>images/</folder>
+        <folder>js/</folder>
+        <folder>lib/</folder>
+    </files>
+    
+    <positions>
+        <position>analytics</position>
+        <position>drawer</position>
+        
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>top-c</position>
+        <position>top-d</position>
+        <position>top-e</position>
+        <position>top-f</position>
+        <position>top-g</position>
+        <position>top-h</position>
+        <position>top-i</position>
+        <position>top-j</position>
+        <position>top-k</position>
+        <position>top-l</position>
+
+        <position>header-a</position>
+        <position>header-b</position>
+        <position>header-c</position>
+        <position>header-d</position>
+        <position>header-e</position>
+        <position>header-f</position>
+        <position>header-g</position>
+        <position>header-h</position>
+        <position>header-i</position>
+        <position>header-j</position>
+        <position>header-k</position>
+        <position>header-l</position>
+
+        <position>menu-a</position>
+        <position>menu-b</position>
+        <position>menu-c</position>
+        <position>menu-d</position>
+        <position>menu-e</position>
+        <position>menu-f</position>
+        <position>menu-g</position>
+        <position>menu-h</position>
+        <position>menu-i</position>
+        <position>menu-j</position>
+        <position>menu-k</position>
+        <position>menu-l</position>
+
+
+        <position>rotator-a</position>
+        <position>rotator-b</position>
+        <position>rotator-c</position>
+        <position>rotator-d</position>
+        <position>rotator-e</position>
+        <position>rotator-f</position>
+        <position>rotator-g</position>
+        <position>rotator-h</position>
+        <position>rotator-i</position>
+        <position>rotator-j</position>
+        <position>rotator-k</position>
+        <position>rotator-l</position>
+
+        
+        <position>showcase-a</position>
+        <position>showcase-b</position>
+        <position>showcase-c</position>
+        <position>showcase-d</position>
+        <position>showcase-e</position>
+        <position>showcase-f</position>
+        <position>showcase-g</position>
+        <position>showcase-h</position>
+        <position>showcase-i</position>
+        <position>showcase-j</position>
+        <position>showcase-k</position>
+        <position>showcase-l</position>
+
+        <position>feature-a</position>
+        <position>feature-b</position>
+        <position>feature-c</position>
+        <position>feature-d</position>
+        <position>feature-e</position>
+        <position>feature-f</position>
+        <position>feature-g</position>
+        <position>feature-h</position>
+        <position>feature-i</position>
+        <position>feature-j</position>
+        <position>feature-k</position>
+        <position>feature-l</position>
+
+        <position>utility-a</position>
+        <position>utility-b</position>
+        <position>utility-c</position>
+        <position>utility-d</position>
+        <position>utility-e</position>
+        <position>utility-f</position>
+        <position>utility-g</position>
+        <position>utility-h</position>
+        <position>utility-i</position>
+        <position>utility-j</position>
+        <position>utility-k</position>
+        <position>utility-l</position>
+
+        <position>maintop-a</position>
+        <position>maintop-b</position>
+        <position>maintop-c</position>
+        <position>maintop-d</position>
+        <position>maintop-e</position>
+        <position>maintop-f</position>
+        <position>maintop-g</position>
+        <position>maintop-h</position>
+        <position>maintop-i</position>
+        <position>maintop-j</position>
+        <position>maintop-k</position>
+        <position>maintop-l</position>
+
+        <position>breadcrumbs</position>
+
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position>sidebar-c</position>
+        <position>sidebar-d</position>
+        <position>sidebar-e</position>
+        <position>sidebar-f</position>
+        <position>sidebar-g</position>
+        <position>sidebar-h</position>
+        <position>sidebar-i</position>
+        <position>sidebar-j</position>
+        <position>sidebar-k</position>
+        <position>sidebar-l</position>
+
+        <position>content-top-a</position>
+        <position>content-top-b</position>
+        <position>content-top-c</position>
+        <position>content-top-d</position>
+        <position>content-top-e</position>
+        <position>content-top-f</position>
+        <position>content-top-g</position>
+        <position>content-top-h</position>
+        <position>content-top-i</position>
+        <position>content-top-j</position>
+        <position>content-top-k</position>
+        <position>content-top-l</position>
+
+
+        <position>content-bottom-a</position>
+        <position>content-bottom-b</position>
+        <position>content-bottom-c</position>
+        <position>content-bottom-d</position>
+        <position>content-bottom-e</position>
+        <position>content-bottom-f</position>
+        <position>content-bottom-g</position>
+        <position>content-bottom-h</position>
+        <position>content-bottom-i</position>
+        <position>content-bottom-j</position>
+        <position>content-bottom-k</position>
+        <position>content-bottom-l</position>
+
+        <position>mainbottom-a</position>
+        <position>mainbottom-b</position>
+        <position>mainbottom-c</position>
+        <position>mainbottom-d</position>
+        <position>mainbottom-e</position>
+        <position>mainbottom-f</position>
+        <position>mainbottom-g</position>
+        <position>mainbottom-h</position>
+        <position>mainbottom-i</position>
+        <position>mainbottom-j</position>
+        <position>mainbottom-k</position>
+        <position>mainbottom-l</position>
+
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>bottom-c</position>
+        <position>bottom-d</position>
+        <position>bottom-e</position>
+        <position>bottom-f</position>
+        <position>bottom-g</position>
+        <position>bottom-h</position>
+        <position>bottom-i</position>
+        <position>bottom-j</position>
+        <position>bottom-k</position>
+        <position>bottom-l</position>
+
+        <position>footer-a</position>
+        <position>footer-b</position>
+        <position>footer-c</position>
+        <position>footer-d</position>
+        <position>footer-e</position>
+        <position>footer-f</position>
+        <position>footer-g</position>
+        <position>footer-h</position>
+        <position>footer-i</position>
+        <position>footer-j</position>
+        <position>footer-k</position>
+        <position>footer-l</position>
+
+        <position>copyright-a</position>
+        <position>copyright-b</position>
+        <position>copyright-c</position>
+        <position>copyright-d</position>
+        <position>copyright-e</position>
+        <position>copyright-f</position>
+        <position>copyright-g</position>
+        <position>copyright-h</position>
+        <position>copyright-i</position>
+        <position>copyright-j</position>
+        <position>copyright-k</position>
+        <position>copyright-l</position>
+       
+        <position>debug</position>
+    </positions>
+    <languages>
+        <language tag="pt-BR">pt-BR.tpl_jft.ini</language>
+    </languages>
+    <administration>
+        <languages folder="admin">
+            <language tag="pt-BR">pt-BR.tpl_jft.ini</language>
+        </languages>
+    </administration>
+    <params addpath="/templates/jflt/admin/joomla/elements">
+        <param name="style" type="style" default="" label="" description=""></param>
+   
+        <param name="layouts" type="block"  label="LAYOUTS"  />
+        <param name="topPosition"       type="position" position="top"      label="TOP_POS"         description="POS_DESC"  default="6-6"></param>
+        <param name="headerPosition"    type="position" position="header"   label="HEADER_POS"      description="POS_DESC"  default="12"></param>
+        <param name="menuPosition"      type="position" position="menu"     label="MENU_POS"        description="POS_DESC"  default="12"></param>
+        <param name="rotatorPosition"   type="position" position="rotator"  label="ROTATOR_POS"     description="ROTATOR_POS_DESC"  default="12"></param>
+        <param name="showcasePosition"  type="position" position="showcase" label="SHOWCASE_POS"    description="POS_DESC"  default="3-3-3-3"></param>
+        <param name="featurePosition"   type="position" position="feature"  label="FEATURE_POS"     description="POS_DESC"  default="3-3-3-3"></param>
+        <param name="utilityPosition"   type="position" position="utility"  label="UTILITY_POS"     description="POS_DESC"  default="6-6"></param>
+        <param name="maintopPosition"   type="position" position="maintop"  label="MAINTOP_POS"     description="POS_DESC"  default="4-4-4"></param>
+
+        <param name="mainPosition"          type="positionmain"     position="main"             label="MAIN_POS"            description="MAIN_POS_DESC"             default="3-9"></param>
+        <param name="contentPosition"       type="positionmain"     position="content"          label="CONTENT_POS"         description="CONTENT_POS_DESC"          default="2"></param>
+        <param name="content-topPosition"    type="positioncontent"  position="contenttop"       label="CONTENTTOP_POS"      description="CONTENTTOP_POS_DESC"       default="9"></param>
+        <param name="content-bottomPosition" type="positioncontent"  position="contentbottom"    label="CONTENTBOTTOM_POS"   description="CONTENTBOTTOM_POS_DESC"    default="9"></param>
+
+        <param name="mainbottomPosition"    type="position" position="mainbottom"   label="MAINBOTTOM_POS"  description="POS_DESC"  default="3-3-3-3"></param>
+        <param name="bottomPosition"        type="position" position="bottom"       label="BOTTOM_POS"      description="POS_DESC"  default="3-3-3-3"></param>
+        <param name="footerPosition"        type="position" position="footer"       label="FOOTER_POS"      description="POS_DESC"  default="2-8-2"></param>
+        <param name="copyrightPosition"     type="position" position="copyright"    label="COPYRIGHT_POS"   description="POS_DESC"  default="6-6"></param>
+        <param name="layouts" type="block"  label="EFFECTS"  />
+    </params>
+    
+
+</install>

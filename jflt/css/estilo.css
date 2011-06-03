@@ -1,0 +1,713 @@
+
+
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<*/
+/* -----------------------------------*/
+/* GLOBAL
+//////////////////////////////////////*/
+/**
+* Estilos Globais
+*
+* @section global
+*/
+body {
+    margin:0px;
+    padding:0px;
+    background:#FFFFFF;
+    font-size: 12px;
+    color:#555555;
+    line-height:1.5;
+}
+
+a {
+    color: #849E3A;
+}
+
+a:hover {
+    color: #555555;
+}
+
+
+
+
+
+/* -----------------------------------*/
+/* ---------->>> CABEÇALHO <<*/
+/* -----------------------------------*/
+/* LOGO
+//////////////////////////////////////*/
+/**
+* Div que abriga o logotipo da empresa
+*
+* @section cabeçalho menu
+*/
+#logo{
+    width:163px;
+    height:68px;
+    background:url(../img/logo.png) no-repeat;
+    overflow:hidden;
+}
+
+
+/* TOP-MENU
+//////////////////////////////////////*/
+/**
+* Estilos do menu do topo
+*
+* @section cabeçalho menu
+*/
+#menu{
+    height:118px;
+    background:url(../img/menu-bg.png) repeat-x;
+    overflow:visible;
+}
+#menu .container , #menu .container .grid_12{
+    width: 1000px;
+}
+#top-menu{
+    list-style-type:none;
+    margin-bottom:0;
+    margin-top:0px;
+}
+#top-menu li{
+    float:left;
+    height:38px;
+    line-height:38px;
+    margin-left: 0px;
+    padding:0 10px;
+    position:relative;
+    background: none;
+}
+#top-menu li a{
+    display:block;
+    margin:10px 0 0;
+    text-decoration:none;
+}
+
+
+#top-menu li.active{
+    background:url(../img/topmenu-item-bg-active.png) bottom repeat-x;
+}
+#top-menu li.active a{
+    color:#FFFFFF;
+}
+
+#top-menu li:hover{
+    background:url(../img/topmenu-item-bg-hover.png) bottom repeat-x;
+}
+#top-menu li:hover a{
+    color:#FFFFFF;
+}
+
+#top-menu li.active:hover{
+    background:url(../img/topmenu-item-bg-active-hover.png) bottom repeat-x;
+}
+#top-menu li.active:hover a{
+    color:#555555;
+}
+/* SUBMENU
+	//////////////////////////////////////*/
+/**
+	* Estilos dos submenus
+	*
+	* @section cabeçalho menu submenu
+	*/
+#subMenusContainer {
+    display:block;
+    height:0;
+    left:0;
+    overflow:visible;
+    position:absolute;
+    top:-8px;
+    width:100%;
+    z-index:1000000000;
+    margin-left:-10px;
+}
+.smOW {
+    display:none;
+    overflow:visible;
+    position:absolute;
+}
+#subMenusContainer ul, #subMenusContainer ol {
+    background:#fff;
+    border:1px solid #C3D46A;
+    left:0;
+    padding:0;
+    border:1px solid #A7A7A7;
+    background-color:#FFF;
+    list-style:none outside none;
+    padding:10px 4px;
+    -moz-box-shadow: 0px 0px 10px #bbb;
+    -webkit-box-shadow: 0px 0px 10px #bbb;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+
+#subMenusContainer li{
+    list-style: none;
+    margin-left:10px;
+}
+/* Just sub menu links */
+#subMenusContainer a{
+    text-align:left;
+}
+
+
+
+
+
+
+
+
+/* _MENU
+	//////////////////////////////////////*/
+/**
+	* Estilos do componente de menu do topo
+	*
+	* @section cabeçalho menu
+	*/
+._menu{
+    position:relative;
+    top:12px;
+    height:38px;
+    background:url(../img/topmenu-bg.png) no-repeat;
+    text-align:center;
+}
+._menu .block{
+    display:inline-table;
+}
+
+/* SLIDE
+		//////////////////////////////////////*/
+/**
+		* Estilos do slide que demarca o menu
+		*
+		* @section cabeçalho menu
+		*/
+#slide_path{
+    height:1px;
+    position:absolute;
+    top:39px;
+}
+#slide_knob{
+    background:#849E3A;
+    height:1px;
+}
+
+
+
+
+
+
+
+/* ROTATOR
+//////////////////////////////////////*/
+/**
+* Estilos do slideshow do topo
+*
+* @section cabeçalho rotator
+*/
+#rotator{
+    height:181px;
+    padding: 2px 0px;
+    background:url(../img/rotator-bg.png) repeat-x;
+}
+
+
+
+/* -----------------------------------*/
+/* ---------->>> BODY-SURROUND <<*/
+/* -----------------------------------*/
+/* BODY-SURROUND
+//////////////////////////////////////*/
+/**
+* Estilos do corpo do site
+*
+* @section  body-surround
+*/
+#body-surround{
+    background:url(../img/body-surround-bg.png) repeat-x;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 1px;
+}
+.home #body-surround{
+    background:url(../img/body-surround-bg.png) repeat-x;
+    border-top: none;
+    margin-top: 0px;
+}
+
+
+/* MAINBODY
+	//////////////////////////////////////*/
+/**
+	* Estilos da area de componente
+	*
+	* @section body-surround mainbody
+	*/
+#mainbody{
+    background:url(../img/body-surround-bg.png) repeat-x;
+}
+
+
+/* leading-articles
+		//////////////////////////////////////*/
+/**
+		* Area de artigos iniciais
+		*
+		* @section body-surround mainbody leading-articles
+		*/
+.leading-articles{
+    display:table;
+    background:#9DB161;
+    color:#FFFFFF;
+}
+.leading-articles a {
+    color: #FFFFFF;
+}
+
+.leading-articles a:hover {
+    color: #555555;
+}
+.leading-articles .article-title{
+    text-shadow: 0 1px 1px #000000;
+}
+
+/* teaser-articles
+		//////////////////////////////////////*/
+/**
+		* Area de outros artigos
+		*
+		* @section body-surround mainbody leading-articles
+		*/
+.teaser-articles{
+    background:#FFFFFF;
+    color:#555555;
+}
+
+
+
+
+
+
+
+/* ARTICLE
+	//////////////////////////////////////*/
+/**
+	* Estilos dos artigos
+	*
+	* @section body-surround mainbody article
+	*/
+.article{
+    padding:10px;
+    border-bottom: 2px solid #9DB161;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+/* SIDE-MENU
+//////////////////////////////////////*/
+/**
+* Estilos dos menus laterais
+*
+* @section body menu
+*/
+.side-menu{
+    display: block!important;
+    background: url("../img/grad-1.gif") repeat-x scroll center bottom #FFFFFF;
+    border-bottom: 1px solid #DEDEDE;
+    margin:0 0 1px 1px;
+    padding: 0;
+
+}
+.side-menu .module-title h2.title{
+    background:url("../img/noise-bg.png") repeat scroll 0 0 #555555;
+    color: #F0F0F3;
+    font-size: 125%;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin: 0px;
+    text-shadow: 0 1px 1px #000000;
+
+}
+.side-menu ul{
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+}
+.side-menu ul li{
+    border-bottom: 1px dotted #DEDEDE;
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-position: 2px 8px;
+    padding-left: 12px;
+    line-height: 160%;
+}
+.side-menu ul li:last-child {
+    border-bottom: 0 none;
+}
+
+.side-menu ul li a{
+    background: none repeat scroll 0 0 transparent;
+    color: #525253;
+    padding-left: 15px;
+    display: block;
+    outline: medium none;
+    padding: 6px 0;
+    text-decoration: none;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+}
+
+.side-menu ul li a:hover,.side-menu ul li a:focus,.side-menu ul li a:active{
+    background: #F0F0F3;
+    color: #525253;
+}
+
+.side-menu ul li.active{
+    background: #9DB161;
+}
+.side-menu ul li.active a{
+    color: #FFFFFF;
+}
+
+.side-menu ul li li{
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 0 none;
+    border-top: 1px dotted #DEDEDE;
+}
+.side-menu ul li li a{
+    background: url("../img/bullet-white.png") no-repeat scroll 15px 12px #9DB161;
+    padding-left: 30px;
+}
+.side-menu ul li.active a:hover, .side-menu ul li li a:hover, .side-menu ul li li a:focus, .side-menu ul li li a:active{
+    background:url("../img/noise-bg.png") repeat scroll 0 0 #555555;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* -----------------------------------*/
+/* ---------->>> FOOTER-SURROUND <<*/
+/* -----------------------------------*/
+/* FOOTER-SURROUND
+//////////////////////////////////////*/
+/**
+* Estilos do rodape do site
+*
+* @section footer-surround
+*/
+#footer-surround{
+    background:url(../img/footer-surround-bg.png) repeat-x #E4F0C3;
+    padding-top: 9px;
+}
+
+/* SITEMAP
+	//////////////////////////////////////*/
+/**
+	* Estilos do rodape do site usado como Mapa do site
+	*
+	* @section footer-surround  sitemap
+	*/
+#sitemap{
+    padding:10px 0 0 0;
+}
+
+
+/* COPYRIGHT
+	//////////////////////////////////////*/
+/**
+	* Estilos do rodape do site usado para endereço
+	*
+	* @section footer-surround  copyright
+	*/
+#copyright{
+    padding:0px;
+}
+#copyright .copyright p{
+    float:left;
+    margin:0px;
+}
+
+
+
+
+
+
+/* -----------------------------------*/
+/* ---------->>> EXTRAS <<*/
+/* -----------------------------------*/
+/* EXTRAS
+//////////////////////////////////////*/
+/**
+* Estilos de formatação extras
+*
+* @section extras
+*/
+
+.fundo-claro-1{
+    display:table;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    background:#E4F0C3;
+}
+.fundo-claro-1.last{
+    border-bottom:0px;
+}
+.fundo-claro-1 .block{
+    padding:10px;
+}
+
+
+.fundo-claro-2{
+    display:table;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    background:#F2F8E1;
+}
+.fundo-claro-2 .block{
+    padding:10px;
+}
+
+
+/* titulo dos módulos (novidades , carreira e etc.)*/
+h2.title{
+    font-size:13pt;
+}
+.pagetitle{
+    margin-top: 0px;
+}
+
+
+
+
+
+/* lista sem marcações e com recuo menor*/
+ul.simples{
+    padding-left:0;
+    list-style:none outside none;
+}
+ul.simples li{
+    margin-left:10px;
+}
+
+
+
+
+
+/* Formatação padrão das listas*/
+ul{
+    padding-left:0;
+    list-style:none outside none!important;
+}
+ul li{
+    margin-left:10px;
+    padding:0px 0px 0px 40px ;
+    background:url(../img/bullet.gif) no-repeat scroll 20px 7px transparent;
+
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    line-height: 160%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+ul li p {
+    margin: 0;
+}
+
+
+/* Modificador do tamanho da fonte */
+#humrum-font-sz{
+    position:fixed;
+    right:0px;
+    color:#FFFFFF;
+}
+#humrum-font-sz div{
+    float:left;
+    width:17px;
+    height:17px;
+    margin:2px;
+    background:none repeat scroll 0 0 #9DB161;
+    font-size:12px;
+    text-align:center;
+    color:#FFFFFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+/* -----------------------------------*/
+/* ---------->>> MODULOS <<*/
+/* -----------------------------------*/
+/* CARREIRA
+//////////////////////////////////////*/
+/**
+* Estilos do módulo de carreiras
+*
+* @section modulos carreira
+*/
+h2.carreira{
+    height:34px;
+    padding:0px 0px 0px 40px ;
+    background:url(../img/icones/titulo-carreira.png) left bottom no-repeat;
+}
+#lista-carreira .item{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+
+/* NOVIDADES
+//////////////////////////////////////*/
+/**
+* Estilos do módulo de novidades
+*
+* @section modulos novidades
+*/
+.novidades h2.title{
+    height:34px;
+    padding:0px 0px 0px 40px ;
+    background:url(../img/icones/novidades.png) left bottom no-repeat;
+}
+#lista-novidades .item{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#lista-novidades .item span.data{
+    display:table;
+    font-style:italic;
+    font-size:small;
+}
+#lista-novidades .last{
+    border-bottom: none;
+}
+
+
+
+/* MAPA-SITE
+//////////////////////////////////////*/
+/**
+* Estilos do mapa do site no rodapé do site
+*
+* @section modulos mapa-site
+*/
+ul.mapa-site a{
+    text-decoration:none;
+    color:#555555;
+}
+ul.mapa-site a:hover{
+    text-decoration:underline;
+    color:#555555;
+}
+ul.mapa-site{
+    padding-left:0;
+    list-style:none outside none;
+}
+ul.mapa-site li{
+    margin:0px;
+    text-transform:uppercase;
+}
+ul.mapa-site li ul{
+    padding-left:0;
+    list-style:none outside none;
+}
+ul.mapa-site li ul li{
+    margin:0 0 0 10px;
+    font-size:11px;
+    text-transform:none;
+}
+
+
+
+
+
+/* PAGINATION
+//////////////////////////////////////*/
+/**
+* Estilos para a paginação no site
+*
+* @section pagination
+*/
+.pagination{
+}
+.pagination p{
+    float: left;
+    background: none repeat scroll 0 0 #9DB161;
+    border: 1px solid #9DB161;
+    padding: 1px 4px;
+    color: #ffffff;
+}
+.pagination ul{
+    float: left;
+    list-style: none outside none;
+    padding: 1px 4px;
+
+}
+.pagination ul li{
+    display: inline;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background: none repeat scroll 0 0 transparent;
+    padding: 1px 4px;
+
+}
+.pagination ul li span{
+    background: none repeat scroll 0 0 #E4F0C3;
+    border: 1px solid #9DB161;
+    padding: 3px 4px;
+}
+.pagination ul li a{
+    color: #555555;
+}
+
+
+
+.pagination ul li.tab span ,  .pagination ul li span.active{
+    background: none repeat scroll 0 0 #9DB161;
+    color: #ffffff;
+}
+.pagination ul li.tab a{
+    color: #ffffff;
+}
+
+
+
+
+/* READMORE
+//////////////////////////////////////*/
+/**
+* Estilos para o botao Leia mais...
+*
+* @section readmore
+*/
+.readon-surround{
+    display: table;
+}
+.readon-surround .readon{
+    float: left;
+    background: none repeat scroll 0 0 #9DB161;
+    border: 1px solid #9DB161;
+    padding: 1px 4px;
+    color: #ffffff;
+}
+
+

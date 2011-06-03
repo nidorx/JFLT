@@ -1,0 +1,93 @@
+/* Containers
+foi modificado , removi as margens direitas e esquerdas pois nesse template os blocos são grudados
+----------------------------------------------------------------------------------------------------*/
+.container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,.grid_12{
+        display:inline;
+        float: left;
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1{
+        width:80px;
+}
+
+.grid_2{
+        width:160px;
+}
+
+.grid_3{
+        width:240px;
+}
+
+.grid_4{
+        width:320px;
+}
+
+.grid_5{
+        width:400px;
+}
+
+.grid_6{
+        width:480px;
+}
+
+.grid_7{
+        width:560px;
+}
+
+.grid_8{
+        width:640px;
+}
+
+.grid_9{
+        width:720px;
+}
+
+.grid_10{
+        width:800px;
+}
+
+.grid_11{
+        width:880px;
+}
+
+.grid_12{
+        width:960px;
+}
+.clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+}
+
+
+
